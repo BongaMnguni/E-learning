@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/image_result"
+        android:id="@+id/support_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Result Found !"/>
+
+    <ImageView
+        android:paddingTop="10dp"
+        android:id="@+id/image_result"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icons8result"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listMessage_elitvideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="15dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="15dp" />
+</RelativeLayout>

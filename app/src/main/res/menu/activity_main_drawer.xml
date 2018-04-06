@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icons8home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@drawable/icons8message"
+            android:title="Curriculum Support" />
+
+        <item
+            android:id="@+id/nav_qlinks"
+            android:icon="@drawable/icons8links"
+            android:title="Curriculum Links" />
+
+        <item
+            android:id="@+id/nav_website"
+            android:icon="@drawable/icons8website"
+            android:title="Website" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/icons8contactus"
+                android:title="Contact Us" />
+
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/icons8cancel"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+</menu>

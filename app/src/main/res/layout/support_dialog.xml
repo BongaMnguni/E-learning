@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/messageDialogLayout"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/button_shape"
+                    android:onClick="InteractiveMaterial"
+                    android:text="Interactive material"
+                    android:textColor="#DAA520"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:paddingTop="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/button_shape"
+                    android:onClick="CurriculumVideos"
+                    android:text="Curriculum Videos"
+                    android:textColor="#DAA520"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:paddingTop="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="6dp"
+                    android:onClick="AssessmentSupport"
+                    android:background="@drawable/button_shape"
+                    android:text="Assessment Support"
+                    android:textColor="#DAA520"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"/>
+
+         <!--       <Button
+                    android:paddingTop="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="6dp"
+                    android:onClick="Elits"
+                    android:background="@drawable/button_shape"
+                    android:text="Elits"
+                    android:textColor="#DAA520"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"/>
+         -->
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

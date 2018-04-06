@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">KZN DoE Funda</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Back</string>
+
+    <string-array name="category">
+        <item>-Select Category-</item>
+        <item>FET</item>
+        <item>GET</item>
+    </string-array>
+
+    <string-array name="level">
+        <item>Senior</item>
+        <item>Intermediate</item>
+        <item>Foundation</item>
+    </string-array>
+
+    <string-array name="FETgrade">
+        <item>-Select Grade-</item>
+        <item>Grade 10</item>
+        <item>Grade 11</item>
+        <item>Grade 12</item>
+        <item>All FET Grades</item>
+    </string-array>
+
+    <string-array name="GETSeniorGrade">
+        <item>-Select Grade-</item>
+        <item>Grade 7</item>
+        <item>Grade 8</item>
+        <item>Grade 9</item>
+        <item>All FET Grades</item>
+    </string-array>
+
+    <string-array name="FETsubject">
+        <item>-Select Subject-</item>
+        <item>Mathematics</item>
+        <item>Physical Science</item>
+        <item>Life Science</item>
+        <item>Geography</item>
+        <item>Business Study</item>
+        <item>Economics</item>
+        <item>Accounting</item>
+
+    </string-array>
+
+    <string-array name="GETSeniorSubject">
+        <item>-Select Subject-</item>
+        <item>Mathematics</item>
+        <item>Natural Science</item>
+        <item>Social Science</item>
+        <item>life Orientation</item>
+        <item>English</item>
+        <item>IsiZulu</item>
+        <item>Afrikaans</item>
+        <item>Visual Art</item>
+        <item>Technology</item>
+        <item>Economics</item>
+        <item>Management Science</item>
+
+    </string-array>
+
+    <string-array name="elitdigital">
+        <item>IsiZulu</item>
+        <item>English</item>
+        <item>IsiXhosa</item>
+        <item>Southern Sotho</item>
+        <item>Afrikaans</item>
+    </string-array>
+
+    <string-array name="urgent">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="digitalLevel">
+        <item>Easy to Read</item>
+        <item>Average</item>
+        <item>Challenging</item>
+
+    </string-array>
+
+    <string-array name="sender">
+        <item>Teacher</item>
+        <item>District</item>
+        <item>Directors Office</item>
+    </string-array>
+
+    <string-array name="material">
+        <item>eBook Material</item>
+        <item>other Curriculm Material</item>
+    </string-array>
+</resources>

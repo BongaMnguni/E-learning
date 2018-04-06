@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.elearning.e_learning">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Interactive.InteractiveResults" />
+        <activity android:name=".CurriculumVideos" />
+        <activity android:name=".AssessmentSupport" />
+        <activity android:name=".QuickLinks" />
+        <activity android:name=".ContactUs" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".InteractiveMaterial" />
+        <activity android:name=".CurriculumVideo.CurriculumVideosResults" />
+        <activity android:name=".AssessmentSupports.AssessmentSupportResults" />
+        <activity android:name=".ElitVideo.ElitVideoResults" />
+        <activity android:name=".ElitVideos" />
+        <activity android:name=".ElitDigital.ElitsDigitalResults" />
+        <activity android:name=".ElitsDigitals" />
+        <activity android:name=".Testing" />
+        <activity android:name=".Calender"
+            android:theme="@style/AppTheme.NoActionBar"/>
+    </application>
+
+</manifest>
